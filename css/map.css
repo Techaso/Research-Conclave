@@ -1,0 +1,10 @@
+h1 {
+}
+#map-container { 
+  position: relative;
+    margin: auto;
+    width: 100vw;
+    height: 50vh;
+    border-radius: 0px 0px 0px 0px  ;
+    
+}

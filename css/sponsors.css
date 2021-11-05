@@ -1,0 +1,139 @@
+/*Sponsors List*/
+
+.sponsors {
+  position: relative;
+  text-align: center;
+}
+
+.sponsors ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+
+.sponsors ul li {
+  display: inline-block;
+}
+
+#box1 {
+  width: 125px;
+  height: 125px;
+  background: url(http://www.applitrack.com/sau25/onlineapp/images/districtLogo.gif);
+  background-size: cover;
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box2 {
+  width: 125px;
+  height: 125px;
+  background: url(http://dyn.com/wp-content/themes/dynamic/images/dyn-orb-share.png);
+  background-color: white;
+  background-size: 125px 125px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box3 {
+  width: 125px;
+  height: 125px;
+  background: url(https://documents.clubexpress.com/clubs/634084/graphics/160_BMC_Color1.jpg);
+  background-size: cover;
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box4 {
+  width: 125px;
+  height: 125px;
+  background: url(https://evbdn.eventbrite.com/s3-s3/eventlogos/55840291/anagnostlogocos.jpg);
+  background-color: white;
+  background-size: 125px 75px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 5px;
+  background-position: 0px 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box5 {
+  width: 125px;
+  height: 125px;
+  background: url(http://pizzabellaemory.com/wp-content/uploads/2012/09/cropped-pizza-bella-web.jpg);
+  background-color: white;
+  background-size: 125px 75px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 5px;
+  background-position: 0px 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box6 {
+  width: 125px;
+  height: 125px;
+  background: url(http://physicianemployerdirectory.com/wp-content/uploads/2014/08/Elliot-Health-System-logo.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 5px;
+  background-size:150px 100px;
+  background-position: -10px 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box7 {
+  width: 125px;
+  height: 125px;
+  background-size:150px 100px;
+ background: url(https://www.catholicmedicalcenter.org/library/images/common/logo-new.gif);
+  background-color: white;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size:115px 70px;
+  margin: 5px;
+  background-position: 5px 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+}
+
+#box8 {
+  width: 125px;
+  height: 125px;
+  background-size: cover;
+  overflow: hidden;
+  margin: 5px;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, .75);
+  text-align: center;
+  padding: 60px 0 60px 0;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.sponsors a {
+  text-decoration: none;
+}
+
+#name {
+  font-weight: lighter;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: rgba(255, 255, 255, .85);
+  font-size: 10px;
+}
+
+#box1:hover #overlay,
+#box2:hover #overlay,
+#box3:hover #overlay,
+#box4:hover #overlay,
+#box5:hover #overlay,
+#box6:hover #overlay,
+#box7:hover #overlay {
+  opacity: 1;
+}
